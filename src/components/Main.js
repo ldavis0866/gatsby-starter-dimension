@@ -30,9 +30,9 @@ class Main extends React.Component {
           <p>Adventure Tracker team github contribution graph URL is https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors and my github handle is ldavis0866. My personal contributions to the project were to deploy and maintain the project on Netlify. I also implemented the routing with mock pages and links in the Next.js frame work to allow team members to get a feel for how the pages might be connected. I also made a side nav component.<br />
           Front End<br />
           Ticket 1: Page navigation.<br />
-          <a href="https://www.gatsbyjs.org/">Gatsby.js</a> 
+          {/* <a href="https://www.gatsbyjs.org/">Gatsby.js</a>  */}
           <a
-          href="https://www.github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/17"></a>Git Hub Link<br />
+          href="https://www.github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/17">Git Hub Link</a><br />
           Trello: https://trello.com/c/VB0me11w<br />
           Ticket 2: Side nav component.<br />
           Github: Lambda-School-Labs/Labs8-AdventureTracker: Pull Request 2<br />
