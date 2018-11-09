@@ -28,23 +28,30 @@ class Main extends React.Component {
           <p>Adventure Tracker team github contribution<a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors"> Graph</a> and my github handle is ldavis0866. My personal contributions to the project were to deploy and maintain the project on Netlify. I also implemented the routing with mock pages and links in the Next.js frame work to allow team members to get a feel for how the pages might be connected. I also made a side nav component.<br />
           Front End<br />
           Ticket 1: Page navigation<br />
-          {/* <a href="https://www.gatsbyjs.org/">Gatsby.js</a>  */}
           <a
           href="https://www.github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/17">Git Hub</a><br />
           <a href="https://trello.com/c/VB0me11w">Trello</a><br />
-          Ticket 2: Side nav component.<br />
-          Github: Lambda-School-Labs/Labs8-AdventureTracker: Pull Request 2<br />
-          Trello: https://trello.com/c/9m60Oqhe<br />
+          Ticket 2: Side nav component<br />
+          <a
+          href="https://www.github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/request/2">Git Hub</a><br />
+          <a
+          href="https://trello.com/c/9m60Oqhe">Trello</a><br />
           Ticket 3: Deploy and maintenance of website<br />
-          Github: https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/17<br />
-          Trello: https://trello.com/c/C6HtPRJJ<br />
-          Ticket 4: Configure linter and formater.<br />
-          Github:<br />
-          Trello: https://trello.com/c/awIjTS7s<br />
+          <a
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/17">Git Hub</a><br />
+          <a
+          href="https://trello.com/c/C6HtPRJJ">Trello</a><br />
+          Ticket 4: Configure linter and formater<br />
+          Github<br />
+          <a
+          href="https://trello.com/c/awIjTS7s">Trello</a><br />
           Back End<br />
-          Ticket 1: Reasearch on how to create user accounts.<br />
-          Github:<br />
-          Trello: https://trello.com/c/jKderASz<br />
+          Ticket 1: Research on how to create user accounts<br />
+          Github<br />
+          <a
+          href="https://trello.com/c/jKderASz">Trello</a><br />
+          </p>
+          <p>
           Details of Page Navigation: Page navigation was implemented in the Next.js frame work. I implemented files in the Pages folder. Each page is a seperate file and is a react component that has specific and unique funcionality to the web application. Pages can be linked by practically anything useing the Next.js link component, i used the buttons component in this first implementation. 
           </p>
           {close}
