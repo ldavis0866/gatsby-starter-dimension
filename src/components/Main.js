@@ -4,6 +4,7 @@ import PropTypes from 'prop-types'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import project from '../images/project.png'
 
 class Main extends React.Component {
   render() {
@@ -23,7 +24,7 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
-          <span className="image main"><img src={pic02} alt="" /></span>
+          <span className="image main"><img src={project} alt="" /></span>
           <p>This is a week one 11.5.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. Major goals for this week were to pick a development tech stack. Meet the requirments of deploying a front and back end and being able to create user accounts. Also a major part of the week was to come together as a productive team. I tried to foster good teamwork by giving feedback in a positive manner and offering to help in anyway I could. Good comunication was a key aspect of our team cohesion. I dont think anyone provided friction to the process. I think we have a great team dynamic to carry us forward. Our links are <a href="https://clever-ramanujan-6abad4.netlify.com/"> Front End</a>, <a href="https://adventure-tracker-backend-ewlkjhhafm.now.sh/"> Back End</a>,<a href="https://us1.prisma.sh/thomas-greenhalgh/AdventureTracker/dev"> User Accounts</a>.</p>
           <p>Adventure Tracker team github contribution<a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors"> Graph</a> and my github handle is ldavis0866. My personal contributions to the project were to deploy and maintain the project on Netlify. I also implemented the routing with mock pages and links in the Next.js frame work to allow team members to get a feel for how the pages might be connected. I also made a side nav component.<br />
           Front End<br />
