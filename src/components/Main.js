@@ -31,7 +31,7 @@ class Main extends React.Component {
           Front End<br />
           Ticket 1: Page navigation.<br /> 
           <a
-          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker: Pull Request 10"></a>Git Hub Link<br />
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/17"></a>Git Hub Link<br />
           Trello: https://trello.com/c/VB0me11w<br />
           Ticket 2: Side nav component.<br />
           Github: Lambda-School-Labs/Labs8-AdventureTracker: Pull Request 2<br />
