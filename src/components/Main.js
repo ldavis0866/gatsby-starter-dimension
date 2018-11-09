@@ -23,7 +23,7 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
-          <span className="image main"><img src={project.png} alt="" /></span>
+          <span className="image main"><img src={project} alt="" /></span>
           <p>This is a week one retrospective of the work process of the Lambda Labs Adventure Tracker team. Major goals for this week were to pick a development tech stack. Meet the requirments of deploying a front and back end and being able to create user accounts. Also a major part of the week was to come together as a productive team. I tried to foster good teamwork by giving feedback in a positive manner and offering to help in anyway I could. Good comunication was a key aspect of our team cohesion.I dont think anyone provided friction to the process. I think we have a great team dynamic to carry us forward.</p>
           <p>Our front end URL is
             https://clever-ramanujan-6abad4.netlify.com/
