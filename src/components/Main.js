@@ -27,7 +27,7 @@ class Main extends React.Component {
           <p>This is a week one 11.5.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. Major goals for this week were to pick a development tech stack. Meet the requirments of deploying a front and back end and being able to create user accounts. Also a major part of the week was to come together as a productive team. I tried to foster good teamwork by giving feedback in a positive manner and offering to help in anyway I could. Good comunication was a key aspect of our team cohesion.I dont think anyone provided friction to the process. I think we have a great team dynamic to carry us forward.Our front end URL is https://clever-ramanujan-6abad4.netlify.com/
           and our back end URL is https://adventure-tracker-backend-ewlkjhhafm.now.sh/
           User accounts can be created URL https://us1.prisma.sh/thomas-greenhalgh/AdventureTracker/dev</p>
-          <p>Adventure Tracker team github contribution graph URL is https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors and my github handle is ldavis0866. My personal contributions to the project were to deploy and maintain the project on Netlify. I also implemented the routing with mock pages and links in the Next.js frame work to allow team members to get a feel for how the pages might be connected. I also made a side nav component.
+          <p>Adventure Tracker team github contribution graph URL is https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors and my github handle is ldavis0866. My personal contributions to the project were to deploy and maintain the project on Netlify. I also implemented the routing with mock pages and links in the Next.js frame work to allow team members to get a feel for how the pages might be connected. I also made a side nav component.<br />
           Front End
           Ticket 1: Page navigation. 
           Github: Lambda-School-Labs/Labs8-AdventureTracker: Pull Request 10
@@ -45,6 +45,7 @@ class Main extends React.Component {
           Ticket 1: Reasearch on how to create user accounts.
           Github:
           Trello: https://trello.com/c/jKderASz
+          Details of Page Navigation: Page navigation was implemented in the Next.js frame work. I implemented files in the Pages folder. Each page is a seperate file and is a react component that has specific and unique funcionality to the web application. Pages can be linked by practically anything useing the Next.js link component, i used buttons in this first implementation. 
           </p>
           {close}
         </article>
