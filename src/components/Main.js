@@ -25,13 +25,13 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
           <p>This is a week one 11.5.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. Major goals for this week were to pick a development tech stack. Meet the requirments of deploying a front and back end and being able to create user accounts. Also a major part of the week was to come together as a productive team. I tried to foster good teamwork by giving feedback in a positive manner and offering to help in anyway I could. Good comunication was a key aspect of our team cohesion. I dont think anyone provided friction to the process. I think we have a great team dynamic to carry us forward. Our links are <a href="https://clever-ramanujan-6abad4.netlify.com/"> Front End</a>, <a href="https://adventure-tracker-backend-ewlkjhhafm.now.sh/"> Back End</a>,<a href="https://us1.prisma.sh/thomas-greenhalgh/AdventureTracker/dev"> User Accounts</a>.</p>
-          <p>Adventure Tracker team github contribution graph URL is https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors and my github handle is ldavis0866. My personal contributions to the project were to deploy and maintain the project on Netlify. I also implemented the routing with mock pages and links in the Next.js frame work to allow team members to get a feel for how the pages might be connected. I also made a side nav component.<br />
+          <p>Adventure Tracker team github contribution<a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors"> Graph</a> and my github handle is ldavis0866. My personal contributions to the project were to deploy and maintain the project on Netlify. I also implemented the routing with mock pages and links in the Next.js frame work to allow team members to get a feel for how the pages might be connected. I also made a side nav component.<br />
           Front End<br />
-          Ticket 1: Page navigation.<br />
+          Ticket 1: Page navigation<br />
           {/* <a href="https://www.gatsbyjs.org/">Gatsby.js</a>  */}
           <a
-          href="https://www.github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/17">Git Hub Link</a><br />
-          Trello: https://trello.com/c/VB0me11w<br />
+          href="https://www.github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/17">Git Hub</a><br />
+          <a href="https://trello.com/c/VB0me11w">Trello</a><br />
           Ticket 2: Side nav component.<br />
           Github: Lambda-School-Labs/Labs8-AdventureTracker: Pull Request 2<br />
           Trello: https://trello.com/c/9m60Oqhe<br />
