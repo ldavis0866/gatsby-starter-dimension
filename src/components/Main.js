@@ -52,7 +52,7 @@ class Main extends React.Component {
           href="https://trello.com/c/jKderASz">Trello</a><br />
           </p>
           <p>
-          Details of Page Navigation: Page navigation was implemented in the Next.js frame work. I implemented files in the Pages folder. Each page is a seperate file and is a react component that has specific and unique funcionality to the web application. Pages can be linked by practically anything useing the Next.js link component, i used the buttons component in this first implementation. 
+          Details of Page Navigation:<br /> Page navigation was implemented in the Next.js frame work. I implemented files in the Pages folder. Each page is a seperate file and is a react component that has specific and unique funcionality to the web application. Pages can be linked by practically anything useing the Next.js link component, i used the buttons component in this first implementation. 
           </p>
           {close}
         </article>
