@@ -55,9 +55,10 @@ class Main extends React.Component {
           <p>
           Details of Page Navigation:<br /> Page navigation was implemented in the Next.js frame work. I implemented files in the Pages folder. Each page is a seperate file and is a react component that has specific and unique funcionality to the web application. Pages can be linked by practically anything useing the Next.js link component, i used the buttons component in this first implementation. 
           </p>
-          <p>This is week two 11.12.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. Major goals for this week were to implement all API's' used in the project and connect front and back ends of application. API's Implemented were Google Maps, OAuth and Stripe. We completed all tasks except full OAuth implementation. We worked very well as a team with good comunication and collaboration. I was involved with helping to connect front and back ends and for the implementation of the Stripe credit card charging API. Also we had a <a href="https://youtu.be/5Z8GefPhH_8"> White Board Interview</a> solving a technical problem. I think we have a great team dynamic and solid work to date to carry us forward. Our links are <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>, <a href="https://adventuretracker.now.sh/"> Back End</a>.</p>
+          <p>This is week two 11.12.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. Major goals for this week were to implement all API's used in the project and connect front and back ends of application. API's Implemented were Google Maps, OAuth and Stripe. We completed all tasks except full OAuth implementation. We worked very well as a team with good comunication and collaboration. I was involved with helping to connect front and back ends and for the implementation of the Stripe credit card charging API. Also we had a <a href="https://youtu.be/5Z8GefPhH_8"> White Board Interview</a> solving a technical problem. I think we have a great team dynamic and solid work to date to carry us forward. Our links are <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>, <a href="https://adventuretracker.now.sh/"> Back End</a>.</p>
           <p>Adventure Tracker team github contribution<a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors"> Graph</a> and my github handle is ldavis0866.<br />
-          Front End<br />
+          Links to my contribution to project are listed below.<b />
+          <p>Front End<br />
           Ticket 1: Connecting front and back ends<br />
           <a
           href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/34">Git Hub</a><br />
@@ -67,12 +68,12 @@ class Main extends React.Component {
           href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/23">Git Hub</a><br />
           <a
           href="https://trello.com/c/9m60Oqhe">Trello</a><br />
-          Ticket 3: Implementation of basic Sripe billing component <br />
+          Ticket 3: Implementation of basic Stripe billing component <br />
           <a
           href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/29">Git Hub</a><br />
           <a
           href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
-          Ticket 4: Completed basic Stripe front end implementation<br />
+          Ticket 4: Completed Stripe front end implementation of basic functionality<br />
           <a
           href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/37">Git Hub</a><br />
           <a
@@ -85,7 +86,7 @@ class Main extends React.Component {
           href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
           </p>
           <p>
-          Details of Strip API implementation:<br />I activated a Stripe acount and received two test keys, one publishable and one secret. Publishable key was placed in front end and allows user to send their credit card information to Stripe. Stripe then sends a one time use token which is sent to back end where secrete key allows the charge to take place. A React billing component implementing the StripeCheckOut component was made which is rendered on the billing page. 
+          Details of Strip API implementation:<br />I activated a Stripe acount and received two test keys, one publishable and one secret. Publishable key was placed in front end and allows user to send their credit card information to Stripe. Stripe then sends a one time use token which is sent to back end where secrete key allows the charge to take place. A React billing component implementing the StripeCheckout component was made which is rendered on the billing page. 
           </p>
           {close}
         </article>
