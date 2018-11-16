@@ -25,7 +25,7 @@ class Main extends React.Component {
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src={project} alt="" /></span>
-          <p>This is week one 11.5.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. Major goals for this week were to pick a development tech stack. Meet the requirments of deploying a front and back end and being able to create user accounts. Also a major part of the week was to come together as a productive team. I tried to foster good teamwork by giving feedback in a positive manner and offering to help in anyway I could. Good comunication was a key aspect of our team cohesion. I dont think anyone provided friction to the process. I think we have a great team dynamic to carry us forward. Our links are <a href="https://clever-ramanujan-6abad4.netlify.com/"> Front End</a>, <a href="https://adventure-tracker-backend-ewlkjhhafm.now.sh/"> Back End</a>,<a href="https://us1.prisma.sh/thomas-greenhalgh/AdventureTracker/dev"> User Accounts</a>.</p>
+          <p>This is week one 11.5.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. Major goals for this week were to pick a development tech stack. Meet the requirments of deploying a front and back end and being able to create user accounts. Also a major part of the week was to come together as a productive team. I tried to foster good teamwork by giving feedback in a positive manner and offering to help in anyway I could. Good comunication was a key aspect of our team cohesion. I dont think anyone provided friction to the process. I think we have a great team dynamic to carry us forward. Our links are <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>, <a href="https://adventuretracker.now.sh/"> Back End</a> .</p>
           <p>Adventure Tracker team github contribution<a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors"> Graph</a> and my github handle is ldavis0866. My personal contributions to the project were to deploy and maintain the project on Netlify. I also implemented the routing with mock pages and links in the Next.js frame work to allow team members to get a feel for how the pages might be connected. I also made a side nav component.<br />
           Front End<br />
           Ticket 1: Page navigation<br />
@@ -55,35 +55,37 @@ class Main extends React.Component {
           <p>
           Details of Page Navigation:<br /> Page navigation was implemented in the Next.js frame work. I implemented files in the Pages folder. Each page is a seperate file and is a react component that has specific and unique funcionality to the web application. Pages can be linked by practically anything useing the Next.js link component, i used the buttons component in this first implementation. 
           </p>
-          <p>This is week one 11.5.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. Major goals for this week were to pick a development tech stack. Meet the requirments of deploying a front and back end and being able to create user accounts. Also a major part of the week was to come together as a productive team. I tried to foster good teamwork by giving feedback in a positive manner and offering to help in anyway I could. Good comunication was a key aspect of our team cohesion. I dont think anyone provided friction to the process. I think we have a great team dynamic to carry us forward. Our links are <a href="https://clever-ramanujan-6abad4.netlify.com/"> Front End</a>, <a href="https://adventure-tracker-backend-ewlkjhhafm.now.sh/"> Back End</a>,<a href="https://us1.prisma.sh/thomas-greenhalgh/AdventureTracker/dev"> User Accounts</a>.</p>
-          <p>Adventure Tracker team github contribution<a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors"> Graph</a> and my github handle is ldavis0866. My personal contributions to the project were to deploy and maintain the project on Netlify. I also implemented the routing with mock pages and links in the Next.js frame work to allow team members to get a feel for how the pages might be connected. I also made a side nav component.<br />
+          <p>This is week two 11.12.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. Major goals for this week were to implement all API's' used in the project and connect front and back ends of application. API's Implemented were Google Maps, OAuth and Stripe. We completed all tasks except full OAuth implementation. We worked very well as a team with good comunication and collaboration. I was involved with helping to connect front and back ends and for the implementation of the Stripe credit card charging API. Also we had a <a href="https://youtu.be/5Z8GefPhH_8"> White Board Interview</a> solving a technical problem. I think we have a great team dynamic and solid work to date to carry us forward. Our links are <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>, <a href="https://adventuretracker.now.sh/"> Back End</a>.</p>
+          <p>Adventure Tracker team github contribution<a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors"> Graph</a> and my github handle is ldavis0866.<br />
           Front End<br />
-          Ticket 1: Page navigation<br />
+          Ticket 1: Connecting front and back ends<br />
           <a
-          href="https://www.github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/17">Git Hub</a><br />
-          <a href="https://trello.com/c/VB0me11w">Trello</a><br />
-          Ticket 2: Side nav component<br />
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/34">Git Hub</a><br />
+          <a href="https://trello.com/c/C6HtPRJJ">Trello</a><br />
+          Ticket 2: Added Netlify .toml file to complete continuous deployment from Github repo<br />
           <a
-          href="https://www.github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/request/2">Git Hub</a><br />
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/23">Git Hub</a><br />
           <a
           href="https://trello.com/c/9m60Oqhe">Trello</a><br />
-          Ticket 3: Deploy and maintenance of website<br />
+          Ticket 3: Implementation of basic Sripe billing component <br />
           <a
-          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/17">Git Hub</a><br />
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/29">Git Hub</a><br />
           <a
-          href="https://trello.com/c/C6HtPRJJ">Trello</a><br />
-          Ticket 4: Configure linter and formater<br />
-          Github<br />
+          href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
+          Ticket 4: Completed basic Stripe front end implementation<br />
           <a
-          href="https://trello.com/c/awIjTS7s">Trello</a><br />
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/37">Git Hub</a><br />
+          <a
+          href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
           Back End<br />
-          Ticket 1: Research on how to create user accounts<br />
-          Github<br />
+          Ticket 1: Began backend implementation of Stripe API<br /><a
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/41">Git Hub</a>
+          <br />
           <a
-          href="https://trello.com/c/jKderASz">Trello</a><br />
+          href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
           </p>
           <p>
-          Details of Page Navigation:<br /> Page navigation was implemented in the Next.js frame work. I implemented files in the Pages folder. Each page is a seperate file and is a react component that has specific and unique funcionality to the web application. Pages can be linked by practically anything useing the Next.js link component, i used the buttons component in this first implementation. 
+          Details of Strip API implementation:<br />I activated a Stripe acount and received two test keys, one publishable and one secret. Publishable key was placed in front end and allows user to send their credit card information to Stripe. Stripe then sends a one time use token which is sent to back end where secrete key allows the charge to take place. A React billing component implementing the StripeCheckOut component was made which is rendered on the billing page. 
           </p>
           {close}
         </article>
