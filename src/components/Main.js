@@ -94,6 +94,7 @@ class Main extends React.Component {
           </p>
           <span className="image main"><img src={stripe} alt="" /></span>
           <p>This is week three 11.26.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. I think we have a great team dynamic and solid work to date to carry us forward. Working with a team to convert a disparate set of components into a single, cohesive, and complete product was very challenging especially in a remote setting. Communitcation was key for our success usign a combination of Slack channels and Zoom meetings. In describing the challenges I faced and the steps I took to overcome them, I would say I checked in frequently with team members when ever I had a problem and made sure my work was integration with the team. Major goals for this week were to implement all API's funcitonality used in the project and connect the API's content with the front and back ends of application. Here is a list of each major feature in our specification and a link provided to where that feature is implemented.
+          <p/>
           <p>1.<a href="https://adventure-tracker-frontend.netlify.com/app/"> Google Map API</a> 
           <b />2.<a href="https://adventure-tracker-frontend.netlify.com/billing/"> Stripe API</a>
           <b />3.<a href="https://adventure-tracker-frontend.netlify.com"> Facebook OAuth</a><p/>
