@@ -5,7 +5,7 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import project from '../images/project.png'
-
+import stripe from '../images/stripe.png'
 class Main extends React.Component {
   render() {
 
@@ -99,34 +99,35 @@ class Main extends React.Component {
           Links to my contribution to project are listed below.<b />
           </p>
           <p>Front End<br />
-          Ticket 1: Connecting front and back ends<br />
+          Ticket 1: Wrapped StripeCheckout component with User component to attache user data and added price and title fields payment modal.<br />
           <a
-          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/34">Git Hub</a><br />
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/50">Git Hub</a><br />
           <a href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
-          Ticket 2: Added Netlify .toml file to complete continuous deployment from Github repo<br />
+          Ticket 2: Wrapped StripeCheckout component in Mutation component and called createOrder mutation on front end. And on backend also added Order data model and createOrder mutation on backend.<br />
           <a
-          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/23">Git Hub</a><br />
-          <a
-          href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
-          Ticket 3: Implementation of basic Stripe billing component <br />
-          <a
-          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/29">Git Hub</a><br />
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/72">Git Hub</a><br />
           <a
           href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
-          Ticket 4: Completed Stripe front end implementation of basic functionality<br />
+          Ticket 3: Completed Billing component base functionality with Stripe API. <br />
           <a
-          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/37">Git Hub</a><br />
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/77">Git Hub</a><br />
           <a
           href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
           Back End<br />
-          Ticket 1: Began backend implementation of Stripe API<br /><a
-          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/41">Git Hub</a>
+          Ticket 1: Added Stripe datamodel to backend with mutation and began resolver.<br /><a
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/58">Git Hub</a>
           <br />
           <a
           href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
+          Ticket 2: Graphql resolver for Stripe API base functionality complete.<br />
+          <a
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/78">Git Hub</a><br />
+          <a
+          href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
+          Back End<br />
           </p>
           <p>
-          Details of completion of Strip API implementation:<br />I fully implemented the Stripe API by   
+          Details of completion of Strip API implementation:<br />I fully implemented the Stripe API by wrapping StripeCheckout component with User component to attached user data and added price and title fields to payment modal. I added Stripe datamodel to backend with createOrder mutation and began resolver. I then wrapped StripeCheckout component in Mutation component and called createOrder mutation on front end. That completed Billing component base functionality with Stripe API.  
           </p>
           {close}
         </article>
