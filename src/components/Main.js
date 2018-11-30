@@ -6,6 +6,8 @@ import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import project from '../images/project.png'
 import stripe from '../images/stripe.png'
+import map from '../images/map.png'
+
 class Main extends React.Component {
   render() {
 
@@ -55,6 +57,7 @@ class Main extends React.Component {
           <p>
           Details of Page Navigation:<br /> Page navigation was implemented in the Next.js frame work. I implemented files in the Pages folder. Each page is a seperate file and is a react component that has specific and unique funcionality to the web application. Pages can be linked by practically anything useing the Next.js link component, i used the buttons component in this first implementation. 
           </p>
+          <span className="image main"><img src={map} alt="" /></span>
           <p>This is week two 11.12.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. Major goals for this week were to implement all API's used in the project and connect front and back ends of application. API's Implemented were Google Maps, OAuth and Stripe. We completed all tasks except full OAuth implementation. We worked very well as a team with good comunication and collaboration. I was involved with helping to connect front and back ends and for the implementation of the Stripe credit card charging API. Also we had a <a href="https://youtu.be/5Z8GefPhH_8"> White Board Interview</a> solving a technical problem. I think we have a great team dynamic and solid work to date to carry us forward. Our links are <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>, <a href="https://adventuretracker.now.sh/"> Back End</a>.</p>
           <p>Adventure Tracker team github contribution<a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors"> Graph</a> and my github handle is ldavis0866.<br />
           Links to my contribution to project are listed below.<b />
