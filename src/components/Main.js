@@ -87,11 +87,12 @@ class Main extends React.Component {
           href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
           </p>
           <p>
-          Details of Strip API implementation:<br />I activated a Stripe acount and received two test keys, one publishable and one secret. Publishable key was placed in front end and allows user to send their credit card information to Stripe. Stripe then sends a one time use token which is sent to back end where secrete key allows the charge to take place. A React billing component implementing the StripeCheckout component was made which is rendered on the billing page. 
+          Details of Strip API implementation:<br />I activated a Stripe acount and received two test keys, one publishable and one secret. Publishable key was placed in front end and allows user to send their credit card information to Stripe. Stripe then sends a one time use token which is sent to back end where secret key allows the charge to take place. A React billing component implementing the StripeCheckout component was made which is rendered on the billing page. 
           </p>
+          <span className="image main"><img src={stripe} alt="" /></span>
           <p>This is week three 11.26.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. I think we have a great team dynamic and solid work to date to carry us forward. Working with a team to convert a disparate set of components into a single, cohesive, and complete product was very challenging especially in a remote setting. Communitcation was key for our success usign a combination of Slack channels and Zoom meetings. In describing the challenges I faced and the steps I took to overcome them, I would say I checked in frequently with team members when ever I had a problem and made sure my work was integration with the team. Major goals for this week were to implement all API's funcitonality used in the project and connect the API's content with the front and back ends of application. Here is a list of each major feature in our specification and a link provided to where that feature is implemented.
-          1.<a href="https://adventure-tracker-frontend.netlify.com"> Google Map API</a> 
-          2.<a href="https://adventure-tracker-frontend.netlify.com"> Stripe API</a>
+          1.<a href="https://adventure-tracker-frontend.netlify.com/app/"> Google Map API</a> 
+          2.<a href="https://adventure-tracker-frontend.netlify.com/billing/"> Stripe API</a>
           3.<a href="https://adventure-tracker-frontend.netlify.com"> Facebook OAuth</a>
           <br />Also we had a <a href="https://youtu.be/CJh286AGcT4"> White Board Interview</a> solving the technical problem of Ring Buffer data structure implementation. Our links are <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>, <a href="https://adventuretracker.now.sh/"> Back End</a>.</p>
           <p>Adventure Tracker team github contribution<a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors"> Graph</a> and my github handle is ldavis0866.<br />
@@ -101,12 +102,12 @@ class Main extends React.Component {
           Ticket 1: Connecting front and back ends<br />
           <a
           href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/34">Git Hub</a><br />
-          <a href="https://trello.com/c/C6HtPRJJ">Trello</a><br />
+          <a href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
           Ticket 2: Added Netlify .toml file to complete continuous deployment from Github repo<br />
           <a
           href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/23">Git Hub</a><br />
           <a
-          href="https://trello.com/c/9m60Oqhe">Trello</a><br />
+          href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
           Ticket 3: Implementation of basic Stripe billing component <br />
           <a
           href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/29">Git Hub</a><br />
@@ -125,7 +126,7 @@ class Main extends React.Component {
           href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
           </p>
           <p>
-          Details of Strip API implementation:<br />I activated a Stripe acount and received two test keys, one publishable and one secret. Publishable key was placed in front end and allows user to send their credit card information to Stripe. Stripe then sends a one time use token which is sent to back end where secrete key allows the charge to take place. A React billing component implementing the StripeCheckout component was made which is rendered on the billing page. 
+          Details of completion of Strip API implementation:<br />I fully implemented the Stripe API by   
           </p>
           {close}
         </article>
