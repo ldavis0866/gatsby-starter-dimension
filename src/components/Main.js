@@ -7,6 +7,7 @@ import pic03 from '../images/pic03.jpg'
 import project from '../images/project.png'
 import stripe from '../images/stripe.png'
 import map from '../images/map.png'
+import trips from '../images/trips.png'
 
 class Main extends React.Component {
   render() {
@@ -127,6 +128,46 @@ class Main extends React.Component {
           href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/78">Git Hub</a><br />
           <a
           href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
+          Back End<br />
+          </p>
+          <p>
+          Details of completion of Strip API implementation:<br />I fully implemented the Stripe API by wrapping StripeCheckout component with User component to attached user data and added price and title fields to payment modal. I added Stripe datamodel to backend with createOrder mutation and began resolver. I then wrapped StripeCheckout component in Mutation component and called createOrder mutation on front end. That completed Billing component base functionality with Stripe API.  
+          </p>
+          <span className="image main"><img src={trips} alt="" /></span>
+          <p>This is week four 12.03.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. I think we have a great team dynamic and solid work to date to carry us forward. Working with a team to convert a disparate set of components into a single, cohesive, and complete product was very challenging especially in a remote setting. Communitcation was key for our success usign a combination of Slack channels and Zoom meetings. In describing the challenges I faced and the steps I took to overcome them, I would say I checked in frequently with team members when ever I had a problem and made sure my work was integration with the team. Major goals for this week were to implement all API's funcitonality used in the project and connect the API's content with the front and back ends of application.</p>  <p>Here is a list of each major feature in our specification and a link provided to where that feature is implemented.</p>
+          <p>1.<a href="https://adventure-tracker-frontend.netlify.com/app/"> Google Map API</a></p>
+          <p>2.<a href="https://adventure-tracker-frontend.netlify.com/billing/"> Stripe API</a></p>
+          <p>3.<a href="https://adventure-tracker-frontend.netlify.com"> Facebook OAuth</a></p>
+          <p>Also we had a <a href="https://youtu.be/CJh286AGcT4"> White Board Interview</a> solving the technical problem of Ring Buffer data structure implementation. Our links are <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>, <a href="https://adventuretracker.now.sh/"> Back End</a>.</p>
+          <p>Adventure Tracker team github contribution<a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors"> Graph</a> and my github handle is ldavis0866.<br />
+          Links to my contribution to project are listed below.<b />
+          </p>
+          <p>Front End<br />
+          Ticket 1: Wrapped StripeCheckout component with User component to attache user data and added price and title fields payment modal.<br />
+          <a
+          href="">Git Hub</a><br />
+          <a href="">Trello</a><br />
+          Ticket 2: Wrapped StripeCheckout component in Mutation component and called createOrder mutation on front end. And on backend also added Order data model and createOrder mutation on backend.<br />
+          <a
+          href="">Git Hub</a><br />
+          <a
+          href="">Trello</a><br />
+          Ticket 3: Completed Billing component base functionality with Stripe API. <br />
+          <a
+          href="">Git Hub</a><br />
+          <a
+          href="">Trello</a><br />
+          <b />Back End<br />
+          Ticket 1: Added Stripe datamodel to backend with mutation and began resolver.<br /><a
+          href="">Git Hub</a>
+          <br />
+          <a
+          href="">Trello</a><br />
+          Ticket 2: Graphql resolver for Stripe API base functionality complete.<br />
+          <a
+          href="">Git Hub</a><br />
+          <a
+          href="">Trello</a><br />
           Back End<br />
           </p>
           <p>
