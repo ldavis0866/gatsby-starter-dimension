@@ -95,9 +95,9 @@ class Main extends React.Component {
           </p>
           <span className="image main"><img src={stripe} alt="" /></span>
           <p>This is week three 11.26.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. I think we have a great team dynamic and solid work to date to carry us forward. Working with a team to convert a disparate set of components into a single, cohesive, and complete product was very challenging especially in a remote setting. Communitcation was key for our success usign a combination of Slack channels and Zoom meetings. In describing the challenges I faced and the steps I took to overcome them, I would say I checked in frequently with team members when ever I had a problem and made sure my work was integration with the team. Major goals for this week were to implement all API's funcitonality used in the project and connect the API's content with the front and back ends of application.</p>  <p>Here is a list of each major feature in our specification and a link provided to where that feature is implemented.</p>
-          <p>1.<a href="https://adventure-tracker-frontend.netlify.com/app/"> Google Map API</a></p>
-          <p>2.<a href="https://adventure-tracker-frontend.netlify.com/billing/"> Stripe API</a></p>
-          <p>3.<a href="https://adventure-tracker-frontend.netlify.com"> Facebook OAuth</a></p>
+          <p>1.<a href="https://adventure-tracker-frontend.netlify.com/app/"> Google Map API</a> Responsiveness, Styling, User funcionality.</p>
+          <p>2.<a href="https://adventure-tracker-frontend.netlify.com/triplist/"> Trip List</a> Responsiveness, Styling, User funcionality</p>
+          <p>3.<a href="https://adventure-tracker-frontend.netlify.com/archivelist/"> Trip Archive</a> Responsiveness, Styling, User funcionality</p>
           <p>Also we had a <a href="https://youtu.be/CJh286AGcT4"> White Board Interview</a> solving the technical problem of Ring Buffer data structure implementation. Our links are <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>, <a href="https://adventuretracker.now.sh/"> Back End</a>.</p>
           <p>Adventure Tracker team github contribution<a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors"> Graph</a> and my github handle is ldavis0866.<br />
           Links to my contribution to project are listed below.<b />
@@ -134,44 +134,48 @@ class Main extends React.Component {
           Details of completion of Strip API implementation:<br />I fully implemented the Stripe API by wrapping StripeCheckout component with User component to attached user data and added price and title fields to payment modal. I added Stripe datamodel to backend with createOrder mutation and began resolver. I then wrapped StripeCheckout component in Mutation component and called createOrder mutation on front end. That completed Billing component base functionality with Stripe API.  
           </p>
           <span className="image main"><img src={trips} alt="" /></span>
-          <p>This is week four 12.03.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. I think we have a great team dynamic and solid work to date to carry us forward. Working with a team to convert a disparate set of components into a single, cohesive, and complete product was very challenging especially in a remote setting. Communitcation was key for our success usign a combination of Slack channels and Zoom meetings. In describing the challenges I faced and the steps I took to overcome them, I would say I checked in frequently with team members when ever I had a problem and made sure my work was integration with the team. Major goals for this week were to implement all API's funcitonality used in the project and connect the API's content with the front and back ends of application.</p>  <p>Here is a list of each major feature in our specification and a link provided to where that feature is implemented.</p>
+          <p>This is week four 12.03.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team.  Working as a team to make our product look and feel as good as it works under the hood. Our team shifted tasks towards the front end - and debugging the back end to improve UX. Working with a team to convert a disparate set of components into a single, cohesive, and complete product that looks and feels good was very challenging especially in a remote setting. Communitcation was key for our success using a combination of Slack channels and Zoom meetings. I think we have a great team dynamic and solid work to date to carry us forward. In describing the challenges I faced and the steps I took to overcome them, I would say I checked in frequently with team members when ever I had a problem and made sure my work was integration with the team. Major goals for this week were work on bugs and the user experiance.</p>  <p>Links to major application pages and describes any remaining bugs, fixes, or tasks that need to be completed on that page.</p>
           <p>1.<a href="https://adventure-tracker-frontend.netlify.com/app/"> Google Map API</a></p>
           <p>2.<a href="https://adventure-tracker-frontend.netlify.com/billing/"> Stripe API</a></p>
           <p>3.<a href="https://adventure-tracker-frontend.netlify.com"> Facebook OAuth</a></p>
-          <p>Also we had a <a href="https://youtu.be/CJh286AGcT4"> White Board Interview</a> solving the technical problem of Ring Buffer data structure implementation. Our links are <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>, <a href="https://adventuretracker.now.sh/"> Back End</a>.</p>
+          <p>Also we had a <a href="https://youtu.be/azF2j3NneKs"> White Board Interview</a> solving the technical problem of Reversed Linked List implementation. Our links are <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>, <a href="https://adventuretracker.now.sh/"> Back End</a>.</p>
           <p>Adventure Tracker team github contribution<a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors"> Graph</a> and my github handle is ldavis0866.<br />
           Links to my contribution to project are listed below.<b />
           </p>
           <p>Front End<br />
-          Ticket 1: Wrapped StripeCheckout component with User component to attache user data and added price and title fields payment modal.<br />
+          Ticket 1: Implemented React-copy-clipboard to ClipBoard component accessed on Trip open page in order to save current url for trip share functionality.<br />
           <a
-          href="">Git Hub</a><br />
-          <a href="">Trello</a><br />
-          Ticket 2: Wrapped StripeCheckout component in Mutation component and called createOrder mutation on front end. And on backend also added Order data model and createOrder mutation on backend.<br />
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/89">Git Hub</a><br />
+          <a href="https://trello.com/c/Mw1LWMLp">Trello</a><br />
+          Ticket 2: Added funcionality to ClipBoard component to add user id to saved URL.<br />
           <a
-          href="">Git Hub</a><br />
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/90">Git Hub</a><br />
           <a
-          href="">Trello</a><br />
-          Ticket 3: Completed Billing component base functionality with Stripe API. <br />
+          href="https://trello.com/c/Mw1LWMLp">Trello</a><br />
+          Ticket 3: Added more pages with links. <br />
           <a
-          href="">Git Hub</a><br />
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/83">Git Hub</a><br />
           <a
-          href="">Trello</a><br />
+          href="https://trello.com/c/VB0me11w">Trello</a><br />
+          Ticket 4: Added folder with screenshots of Map API for use in trip list components. <br />
+          <a
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/100">Git Hub</a><br />
+          <a
+          href="https://trello.com/c/TBLewyss">Trello</a><br />
+          Ticket 5: Stripe implemetation blocked due to css styling issues resolved. <br />
+          <a
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/106">Git Hub</a><br />
+          <a
+          href="https://trello.com/c/Fx7RFvSs">Trello</a><br />
           <b />Back End<br />
-          Ticket 1: Added Stripe datamodel to backend with mutation and began resolver.<br /><a
-          href="">Git Hub</a>
+          Ticket 1: Implementing mock trip cards in trip list and trip archive pages.<br /><a
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/97">Git Hub</a>
           <br />
           <a
-          href="">Trello</a><br />
-          Ticket 2: Graphql resolver for Stripe API base functionality complete.<br />
-          <a
-          href="">Git Hub</a><br />
-          <a
-          href="">Trello</a><br />
-          Back End<br />
+          href="https://trello.com/c/TBLewyss">Trello</a><br />
           </p>
           <p>
-          Details of completion of Strip API implementation:<br />I fully implemented the Stripe API by wrapping StripeCheckout component with User component to attached user data and added price and title fields to payment modal. I added Stripe datamodel to backend with createOrder mutation and began resolver. I then wrapped StripeCheckout component in Mutation component and called createOrder mutation on front end. That completed Billing component base functionality with Stripe API.  
+          Details of completion ClipBoard component implementation:<br />I fully implemented a React front end component that utilized the react-copy-clipboard npm moduel. A use will click a share button on trip open page and the current link with the users id will be saved to the clipboard to be shared with friends to monitor the trip.  
           </p>
           {close}
         </article>
