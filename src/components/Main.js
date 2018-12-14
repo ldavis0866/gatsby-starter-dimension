@@ -8,6 +8,7 @@ import project from '../images/project.png'
 import stripe from '../images/stripe.png'
 import map from '../images/map.png'
 import trips from '../images/trips.png'
+import settings from '../images/settings.png'
 
 class Main extends React.Component {
   render() {
@@ -176,6 +177,48 @@ class Main extends React.Component {
           </p>
           <p>
           Details of completion ClipBoard component implementation:<br />I fully implemented a React front end component that utilized the react-copy-clipboard npm moduel. A use will click a share button on trip open page and the current link with the users id will be saved to the clipboard to be shared with friends to monitor the trip.  
+          </p>
+          <span className="image main"><img src={settings} alt="" /></span>
+          <p>This is week five 12.10.2018 retrospective of the work process of the Lambda Labs Adventure Tracker team. In describing some of the final tasks that were the most difficult for our team to resolve we had some challenging bugs, like unexpected errors when buttons were pushed and unexpected results when user events were triggered. Layout and presentation problems presisted as with mobile responsiveness not being achived yet. We got all major funcionality working but not bug free. Working as a team to make our project complete will still take some time. Working with a team to convert a design specification into a single, cohesive, and complete product that looks and feels good was very challenging especially in a remote setting. Communitcation was key for our success using a combination of Slack channels and Zoom meetings. In describing the challenges I faced and the steps I took to overcome them, I would say I checked in frequently with team members whenever I had a problem and made sure my work was integrated with the team.</p><p>Our links are <a href="https://adventure-tracker-frontend.netlify.com"> Front End</a>, <a href="https://adventuretracker.now.sh/"> Back End</a>.</p>
+          <p>Adventure Tracker team github contribution<a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/graphs/contributors"> Graph</a> and my github handle is ldavis0866.<br />
+          Links to my contribution to project are listed below.<b />
+          </p>
+          <p>Front End<br />
+          Ticket 1: Corners rounded on SideNav bar buttons <br />
+          <a
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/126">Git Hub</a><br />
+          <a href="https://trello.com/c/qUW7rdWs">Trello</a><br />
+          Ticket 2: Added background image to settings page and changed opacity of form component .<br />
+          <a
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/134">Git Hub</a><br />
+          <a
+          href="https://trello.com/c/qUW7rdWs">Trello</a><br />
+          Ticket 3: Added margin to trips in archived trip page and margin and rounded corners to unarchive button<br />
+          <a
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/144">Git Hub</a><br />
+          <a
+          href="https://trello.com/c/qUW7rdWs">Trello</a><br />
+          Ticket 4: Added margin to trip in trip list page and added margin and rounded corners to archive button in trip  <br />
+          <a
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/143">Git Hub</a><br />
+          <a
+          href="https://trello.com/c/qUW7rdWs">Trello</a><br />
+          Ticket 5: Made sign-up page responsive<br />
+          <a
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/138">Git Hub</a><br />
+          <a
+          href="https://trello.com/c/TYEel5sz">Trello</a><br />
+          Ticket 6: Made login page responsive  <br />
+          <a
+          href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/140">Git Hub</a><br />
+          <a
+          href="https://trello.com/c/TYEel5sz">Trello</a><br />
+          <b />Back End<br />
+          Ticket 1: Added paid and tripcount fields to User data model with corresponding changes to schema and resolver<br />
+          <a href="https://github.com/Lambda-School-Labs/Labs8-AdventureTracker/pull/125">Git Hub</a>
+          <br />
+          <a
+          href="https://trello.com/c/VVQvNay5">Trello</a><br />
           </p>
           {close}
         </article>
