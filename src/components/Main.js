@@ -220,6 +220,9 @@ class Main extends React.Component {
           <a
           href="https://trello.com/c/VVQvNay5">Trello</a><br />
           </p>
+          <p>
+            My contribution this week was to make the landing, sign-up and sign-in pages responsive and to implement CSS changes to improve  the visual aspect of the project.
+          </p>
           {close}
         </article>
 
